@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 5px;
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.main-content {
+    background-color: cadetblue;
+}
